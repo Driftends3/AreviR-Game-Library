@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta
+name="viewport"
+content="width=device-width,initial-scale=1"
+>
+
+<title>
+
+Shadow Hub
+
+</title>
+
+<link
+rel="stylesheet"
+href="css/style.css"
+>
+
+</head>
+
+
+<body>
+
+
+<!-- ======================
+BACKGROUNDS
+====================== -->
+
+<div id="bgA"></div>
+
+<div id="bgB"></div>
+
+<div id="overlay"></div>
+
+
+
+
+<!-- ======================
+TOP BAR
+====================== -->
+
+<header id="topbar">
+
+
+<nav id="tabs">
+
+
+<div
+
+class="tab active"
+
+data-filter="ALL"
+
+>
+
+TODOS
+
+</div>
+
+
+
+<div
+
+class="tab"
+
+data-filter="PS5"
+
+>
+
+PS5
+
+</div>
+
+
+
+<div
+
+class="tab"
+
+data-filter="PS4"
+
+>
+
+PS4
+
+</div>
+
+
+
+<div
+
+class="tab"
+
+data-filter="SHADOW"
+
+>
+
+SHADOW
+
+</div>
+
+
+</nav>
+
+
+
+<div id="clock">
+
+00:00
+
+</div>
+
+
+</header>
+
+
+
+
+
+<!-- ======================
+CENTER
+====================== -->
+
+<main id="center">
+
+
+<img
+
+id="icon"
+
+src=""
+
+alt="Game Logo"
+
+>
+
+
+
+<div id="status">
+
+● INSTALLED
+
+</div>
+
+
+</main>
+
+
+
+
+
+
+<!-- ======================
+CAROUSEL
+====================== -->
+
+<footer id="carouselContainer">
+
+
+<div id="carousel">
+
+
+<!--
+
+Los juegos
+
+se insertan
+
+desde ui.js
+
+con una estructura parecida a:
+
+<div class="game">
+
+    <div class="case">
+
+        <img src="cover.jpg">
+
+    </div>
+
+    <span>Nombre del Juego</span>
+
+</div>
+
+-->
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
+
+<!-- ======================
+LOADING
+====================== -->
+
+<div id="loading">
+
+
+<div id="loadingText">
+
+Cargando juegos...
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- ======================
+AUDIO
+====================== -->
+
+<audio
+
+id="snd0"
+
+preload="none"
+
+>
+
+</audio>
+
+
+
+
+
+
+<!-- ======================
+SCRIPTS
+====================== -->
+
+<script src="js/scanner.js"></script>
+
+<script src="js/ui.js"></script>
+
+<script src="js/launcher.js"></script>
+
+<script src="js/app.js"></script>
+
+
+</body>
+
+</html>
